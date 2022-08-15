@@ -21,7 +21,7 @@ This assignment is divided into three parts: data modeling, data engineering, an
 #### Data Modeling
 
 Inspect the CSVs and sketch out an ERD of the tables. Used QuickDBD to create the ERD diagram for the `Employee database` with six tables. 
-![EmployeeDB_ERD](EmployeeDB_ERD.png)
+![EmployeeDB_ERD](EmployeeSQL/EmployeeDB_ERD.png)
 
 #### Data Engineering
 
@@ -63,11 +63,11 @@ Created a visualization of the data by following these steps:
     
 2. Created a histogram to visualize the most common salary ranges for employees.
 
-![Salary_histogram](Images/salary_histogram2.png)
+![Salary_histogram](EmployeeSQL/Images/salary_histogram2.png)
 
 3. Created a bar chart of average salary by title.
 
-![Average_salary_by_title](Images/Average_salary_by_title.png)
+![Average_salary_by_title](EmployeeSQL/Images/Average_salary_by_title.png)
 
 ## Deliverables
 
