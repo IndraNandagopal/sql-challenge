@@ -1,4 +1,4 @@
-# sql-challenge - Employee Database
+# sql-challenge: Employee Database
 
 ## Background
 
@@ -20,7 +20,7 @@ This assignment is divided into three parts: data modeling, data engineering, an
 
 #### Data Modeling
 
-Inspect the CSVs and sketch out an ERD of the tables. Used QuickDBD to create the ERD diagram for the `Employee database` with six tables. 
+Inspected the CSVs and sketch out an ERD of the tables. Used QuickDBD to create the ERD diagram for the `Employee database` with six tables. 
 ![EmployeeDB_ERD](EmployeeSQL/EmployeeDB_ERD.png)
 
 #### Data Engineering
@@ -33,25 +33,26 @@ Inspect the CSVs and sketch out an ERD of the tables. Used QuickDBD to create th
 
 * Imported each CSV file into the corresponding SQL table. 
 
-  #### Data Analysis
+#### Data Analysis
 
 After ctreating the database, performed the below steps:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
-
+![sql_query_1](EmployeeSQL/Images/sql_query_1.png)
 2. List first name, last name, and hire date for employees who were hired in 1986.
-
+![sql_query_2](EmployeeSQL/Images/sql_query_2.png)
 3. List the manager of each department with the following information: department number, department name, the manager's employee number, last name, first name.
-
+![sql_query_3](EmployeeSQL/Images/sql_query_3.png)
 4. List the department of each employee with the following information: employee number, last name, first name, and department name.
-
+![sql_query_4](EmployeeSQL/Images/sql_query_4.png)
 5. List first name, last name, and sex for employees whose first name is "Hercules" and last names begin with "B."
-
+![sql_query_5](EmployeeSQL/Images/sql_query_5.png)
 6. List all employees in the Sales department, including their employee number, last name, first name, and department name.
-
+![sql_query_6](EmployeeSQL/Images/sql_query_6.png)
 7. List all employees in the Sales and Development departments, including their employee number, last name, first name, and department name.
-
+![sql_query_7](EmployeeSQL/Images/sql_query_7.png)
 8. List the frequency count of employee last names (i.e., how many employees share each last name) in descending order.
+![sql_query_8](EmployeeSQL/Images/sql_query_8.png)
 
 ## Bonus
 
@@ -59,11 +60,11 @@ Created a visualization of the data by following these steps:
 
 1. Imported the SQL database into Pandas.  
 
-    * Created .gitignore file to exclude config.py in uploading to GitHub repository.
+    * Created `.gitignore` file to exclude `config.py` in uploading to GitHub repository.
     
 2. Created a histogram to visualize the most common salary ranges for employees.
 
-![Salary_histogram](EmployeeSQL/Images/salary_histogram2.png)
+![Salary_histogram](EmployeeSQL/Images/salary_histogram.png)
 
 3. Created a bar chart of average salary by title.
 
@@ -71,14 +72,16 @@ Created a visualization of the data by following these steps:
 
 ## Deliverables
 
-* Created an image file for the ERD.
+Below listed four files are available in `sql-challenge\EmployeeSQL` folder.
 
-* Created a `.sql` file for table schemata.
+* Created an image file `EmployeeDB_ERD.png` for ERD  
 
-* Created a `.sql` file for the queries.
+* Created a `EmployeeDB.sql` file for table schemata.
+   
+* Created a `Employee_Queries.sql`file for the queries.
+ 
+* Created a Jupyter notebook called `SQL_BONUS.jpynb` for the bonus analysis.
+ 
+**Created and uploaded a repository with the above files to GitHub and posted a link on BootCamp Spot.
 
-* Created a Jupyter notebook of the bonus analysis.
-
-* Created and uploaded a repository with the above files to GitHub and posted a link on BootCamp Spot.
-
-* Ensured that the repository has regular commits and a thorough README.md file
+**Ensured that the repository has regular commits and a thorough README.md file
