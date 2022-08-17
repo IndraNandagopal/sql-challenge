@@ -35,7 +35,7 @@ Inspected the CSVs and sketch out an ERD of the tables. Used QuickDBD to create 
 
 #### Data Analysis
 
-After ctreating the database, performed the below steps:
+After ctreating the database, performed the below SQL queries:
 
 1. List the following details of each employee: employee number, last name, first name, sex, and salary.
 ![sql_query_1](EmployeeSQL/Images/sql_query_1.png)
@@ -56,7 +56,7 @@ After ctreating the database, performed the below steps:
 
 ## Bonus
 
-Created a visualization of the data by following these steps: 
+## Create Data visualizations: 
 
 1. Imported the SQL database into Pandas.  
 
@@ -74,14 +74,13 @@ Created a visualization of the data by following these steps:
 
 Below listed four files are available in `sql-challenge\EmployeeSQL` folder.
 
-* Created an image file `EmployeeDB_ERD.png` for ERD  
+  * Created an image file `EmployeeDB_ERD.png` for ERD  
+  * Created a `EmployeeDB.sql` file for table schemata.
+  * Created a `Employee_Queries.sql`file for the queries.
+  * Created a Jupyter notebook called `SQL_BONUS.jpynb` for the bonus analysis.
 
-* Created a `EmployeeDB.sql` file for table schemata.
-   
-* Created a `Employee_Queries.sql`file for the queries.
+* All `.png` files are available in `sql-challenge\EmployeeSQL\Images` folder.
  
-* Created a Jupyter notebook called `SQL_BONUS.jpynb` for the bonus analysis.
- 
-**Created and uploaded a repository with the above files to GitHub and posted a link on BootCamp Spot.
+**Created and uploaded the repository with the above files to GitHub and posted a link on BootCamp Spot.
 
 **Ensured that the repository has regular commits and a thorough README.md file
